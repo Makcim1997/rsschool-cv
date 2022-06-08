@@ -1,4 +1,4 @@
-![pfoto](./assets/images/image.jpg) 
+![pfoto](./assets/images/image-1.jpg) 
 # Maksim Busko
 
 
