@@ -4,8 +4,110 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <title>CV</title>
 </head>
 <body>
+  <div class="summary">
+    <div class="summary-content">
+      <header class="header">
+        <div class="header-content">
+          <h1 class="name">Maksim Busko</h1>
+          <nav class="navigation">
+            <ul class="header-list">
+              <li class="list"><a href="#about my self" class="link">about my self</a></li>
+              <li class="list"><a href="#Skill" class="link">Skill</a></li>
+              <li class="list"><a href="#Code Examples" class="link">Code Examples</a></li>
+              <li class="list"><a href="#Education" class="link">Education</a></li>
+              <li class="list"><a href="#Language" class="link">Language</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main-content">
+          
+          <div class="information">
+            <img src="./assets/images/image-1.jpg" class="my-photo" alt="my-photo">
+            <div class="info-contact">
+              <h2 class="contact">Contact information:</h2>
+              <div class="phone">
+                <h3 class="phone-number">Phone:</h3>
+                <a href="tel:+375292892460" class="number">+375(29) 289 24 60</a>
+              </div>
+  
+              <div class="my-mail">
+                <h3 class="mail">E-mail:</h3>
+                <a href="https://mail.ru/" class="link-mail">maksim.busko@mail.ru</a>
+              </div> 
+              
+              <div class="my-telegram">
+                <h3 class="telegram">Telegram:</h3>
+                <p class="my-nick-name">@maloholnyi</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="about my self" class="about">
+            <div class="about-me">
+              <h2 class="biography">About my self:</h2>
+              <p class="text-biography">I'm Maxim. I am 24. At the moment I work in the Minsk metro (security inspector).
+                 Education: secondary special "conductor of a passenger carriage".
+                 I did not do well in school or college, I just slept all the years of my studies. 
+                 I began my development by reading books and began to think about changing my life thanks to them.
+                 So I got to RS school. My level of English is beginner.
+                 But I am always ready to learn, for example, a month ago I had no idea what HTML and CSS are.</p>
+            </div>
+          </div>
+
+          <div id="Skill" class="skill">
+            <h2 class="my-skill">Skill:</h2>
+            <ul class="skill-list">
+              <li class="list-my-skill">HTML</li>
+              <li class="list-my-skill">CSS</li>
+              <li class="list-my-skill">JS (Basic)</li>
+              <li class="list-my-skill">Git (Basic)</li>
+            </ul>
+          </div>
+
+          <div id="Code Examples" class="my-code">
+            <h2 class="head-code">Code Examples:</h2>
+            <pre class="code">let array = [1, 2, 3, 4, 5, 6, 7];
+
+              let isBigArray = (elem) => elem * 2;
+              
+              let newArray = array.map(isBigArray);
+
+              console.log(newArray);
+            </pre>
+          </div>
+
+          <div id="Education" class="education">
+            <h2 class="head-education">Education:</h2>
+            <p class="my-education">Minsk State vocational College of Railroad Transport (secondary special)</p>
+          </div>
+
+          <div id="Language" class="language">
+            <h2 class="head-language">Language:</h2>
+            <p class="level-language">English level - A2</p>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-content">
+          <a href="https://github.com/Makcim1997/rsschool-cv/tree/rsschool-cv-html" class="link-github">
+            <img src="assets/github.png" class="img-gh" alt="img-gh">
+          </a>
+
+          <div class="date">2022г.</div>
+
+          <a href="https://rs.school/js-stage0/" class="link-rsschool">
+            <img src="./assets/rsschool.png" class="img-rs" alt="img-rs">
+          </a>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="./index.js"></script>
 </body>
 </html>
