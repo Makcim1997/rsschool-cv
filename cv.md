@@ -34,3 +34,13 @@ let newArray = array.map(isBigArray);
 console.log(newArray);
 
 ``` 
+
+## Education:
+* Minsk State
+vocational
+College of Railroad Transport (secondary special)
+
+## Language:
+* English level - A2
+
+---
