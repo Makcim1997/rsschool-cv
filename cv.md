@@ -17,9 +17,20 @@ I'm Maxim. I am 25. At the moment I work in the Minsk metro (security inspector)
 
 ---
 
-## Skill:
+## Skills:
 * HTML
 * CSS
 * JS (Basic)
 * Git (Basic).
 --- 
+
+## Code Examples:
+``` 
+let array = [1, 2, 3, 4, 5, 6, 7];
+
+let isBigArray = (elem) => elem * 2;
+
+let newArray = array.map(isBigArray);
+console.log(newArray);
+
+``` 
